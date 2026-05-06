@@ -22,7 +22,7 @@ const mohamed = {
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,ts,js,express,postgres,mongodb,docker,linux,nginx,git,apidog&theme=dark&perline=6" />
+  <img src="https://skillicons.dev/icons?i=nodejs,ts,js,express,npm,postgres,mongodb,docker,linux,nginx,git,webstorm&theme=dark&perline=6" />
 </p>
 
 ---
