@@ -37,7 +37,7 @@ const mohamed = {
 - ✅ Input validation with VineJS and structured error handling middleware
 - 🗄️ Raw SQL PostgreSQL with environment-based connection pooling
 
-🔗 [View on GitHub](https://github.com/mohameddev8/coffeeshop-backend)
+🔗 [View on GitHub](https://github.com/mohamedkernel/coffeeshop-backend)
 
 ---
 
