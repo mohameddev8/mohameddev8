@@ -31,40 +31,10 @@ const mohamed = {
 ## `> tech.stack`
 
 <div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2500&pause=1000&color=00C896&center=true&vCenter=true&width=500&lines=Backend+Engineer;Node.js+%7C+TypeScript+%7C+PostgreSQL;Linux+%2B+Docker+Enthusiast" />
-
-<br><br>
-
-<table>
-<tr>
-<td align="center">
-  
-### Languages & Runtime
-
-[![My Skills](https://skillicons.dev/icons?i=nodejs,typescript,javascript&theme=dark)](https://skillicons.dev)
-
-</td>
-<td align="center">
-
-### Frameworks & Databases
-
-[![My Skills](https://skillicons.dev/icons?i=express,postgres,mongodb&theme=dark)](https://skillicons.dev)
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2" align="center">
-
-### Tools & Environment
-
-[![My Skills](https://skillicons.dev/icons?i=docker,git,linux,bash,vscode&theme=dark)](https://skillicons.dev)
-
-</td>
-</tr>
-</table>
-
+  <p><strong>Languages, Frameworks & Core Tools</strong></p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nodejs,bun,typescript,javascript,express,postgres,mongodb,linux,bash,docker,git,vscode&theme=dark&perline=6" alt="Tech Stack Grid" />
+  </a>
 </div>
 
 ---
