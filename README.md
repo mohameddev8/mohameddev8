@@ -32,17 +32,38 @@ const mohamed = {
 
 <div align="center">
 
-**Languages & Runtime**
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2500&pause=1000&color=00C896&center=true&vCenter=true&width=500&lines=Backend+Engineer;Node.js+%7C+TypeScript+%7C+PostgreSQL;Linux+%2B+Docker+Enthusiast" />
 
-[![Skills](https://skillicons.dev/icons?i=nodejs,typescript,javascript)](https://skillicons.dev)
+<br><br>
 
-**Frameworks & Databases**
+<table>
+<tr>
+<td align="center">
+  
+### Languages & Runtime
 
-[![Skills](https://skillicons.dev/icons?i=express,postgres,mongodb)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=nodejs,typescript,javascript&theme=dark)](https://skillicons.dev)
 
-**Tools & Environment**
+</td>
+<td align="center">
 
-[![Skills](https://skillicons.dev/icons?i=docker,git,linux,bash,vscode)](https://skillicons.dev)
+### Frameworks & Databases
+
+[![My Skills](https://skillicons.dev/icons?i=express,postgres,mongodb&theme=dark)](https://skillicons.dev)
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+
+### Tools & Environment
+
+[![My Skills](https://skillicons.dev/icons?i=docker,git,linux,bash,vscode&theme=dark)](https://skillicons.dev)
+
+</td>
+</tr>
+</table>
 
 </div>
 
