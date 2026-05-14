@@ -84,7 +84,7 @@ const mohamed = {
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=mohamedkernel&theme=tokyonight&hide_border=true&background=0d1117&ring=00FFB3&fire=00FFB3&currStreakLabel=00FFB3)
+![GitHub Streak](https://streak-stats.demolab.com?user=mohamedkernel&theme=tokyonight&hide_border=false&border=00C896&background=0D1117&ring=00FFB3&fire=00FFB3&currStreakLabel=00FFB3)
 
 </div>
 
