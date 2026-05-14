@@ -84,9 +84,9 @@ const mohamed = {
 
 <div align="center">
 
-![Mohamed's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mohamedkernel&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FFB3&icon_color=00FFB3&text_color=ffffff)
+![GitHub Streak](https://streak-stats.demolab.com?user=mohamedkernel&theme=tokyonight&hide_border=true&background=0d1117&ring=00FFB3&fire=00FFB3&currStreakLabel=00FFB3)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedkernel&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FFB3&text_color=ffffff)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedkernel&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FFB3&text_color=ffffff&cache_seconds=1800)
 
 </div>
 
