@@ -33,7 +33,7 @@ const mohamed = {
 <div align="center">
   <p><strong>Languages, Frameworks & Core Tools</strong></p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,express,nest,typescript,bun,javascript,postgres,mongodb,linux,bash,docker,git,webstorm&theme=dark&perline=6" alt="Tech Stack Grid" />
+    <img src="https://skillicons.dev/icons?i=nodejs,express,nest,typescript,javascript,bun,postgres,mongodb,linux,bash,docker,git,webstorm&theme=dark&perline=6" alt="Tech Stack Grid" />
   </a>
 </div>
 
