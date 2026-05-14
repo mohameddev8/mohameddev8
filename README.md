@@ -94,7 +94,7 @@ const mohamed = {
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-mohameddev34@gmail.com-00FFB3?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohameddev34@gmail.com)
+[![Email](https://img.shields.io/badge/Email-mohameddev34@gmail.com-006B4F?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohameddev34@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohamedkernel)
 [![GitHub](https://img.shields.io/badge/GitHub-mohamedkernel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohamedkernel)
 
