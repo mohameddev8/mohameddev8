@@ -1,301 +1,120 @@
-# Bun & Brew — Backend API
-
-[![My Skills](https://skillicons.dev/icons?i=nodejs,typescript,express,postgres,bun)](https://skillicons.dev)
-
-A production-style REST API for a coffee shop and bakery ordering system.  
-Built with Node.js, TypeScript, Express 5, and PostgreSQL.
-
-## 🔗 Live API
-
-> `https://your-deployed-url.com/api/v1`  
-> *(replace with your deployed URL)*
-
----
-
-## Features
-
-- JWT authentication with bcrypt password hashing
-- Role-based authorization (`customer` / `admin`)
-- Full CRUD for categories and menu items
-- Order placement with transactional writes
-- Order status lifecycle management
-- Input validation via VineJS
-- Security headers (Helmet), CORS, and request logging
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Runtime | Node.js 18+ |
-| Language | TypeScript 5 |
-| Framework | Express 5 |
-| Database | PostgreSQL 18.3 |
-| Validation | VineJS |
-| Auth | JWT + bcrypt |
-| Security | Helmet, CORS |
-| Package Manager | Bun |
-
----
-
-## Project Structure
+<div align="center">
 
 ```
-server/
-├── config/               # Database and environment setup
-├── database/
-│   └── migrations/       # SQL schema files
-├── middlewares/          # Auth, role, logger, error handling
-├── modules/
-│   ├── auth/
-│   ├── categories/
-│   ├── menu/
-│   ├── orders/
-│   └── users/
-└── types/                # Express type augmentation
+██╗  ██╗███████╗██████╗ ███╗   ██╗███████╗██╗
+██║ ██╔╝██╔════╝██╔══██╗████╗  ██║██╔════╝██║
+█████╔╝ █████╗  ██████╔╝██╔██╗ ██║█████╗  ██║
+██╔═██╗ ██╔══╝  ██╔══██╗██║╚██╗██║██╔══╝  ██║
+██║  ██╗███████╗██║  ██║██║ ╚████║███████╗███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝
+```
+
+### `> Mohamed Hesham`
+**Backend Developer** — Alexandria, Egypt 🇪🇬
+
+*Building reliable systems, one endpoint at a time.*
+
+---
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=00FFB3&center=true&vCenter=true&width=500&lines=Node.js+%7C+TypeScript+%7C+Express.js;PostgreSQL+%7C+MongoDB+%7C+Docker;REST+APIs+%7C+JWT+Auth+%7C+RBAC;Open+to+remote+internships+%F0%9F%9A%80)](https://git.io/typing-svg)
+
+</div>
+
+---
+
+## `> whoami`
+
+```ts
+const mohamed = {
+  role:       "Backend Developer",
+  location:   "Alexandria, Egypt 🇪🇬",
+  learning:   ["Node.js", "TypeScript", "PostgreSQL", "Docker"],
+  building:   "Bun & Brew — a production-style coffee shop REST API",
+  goal:       "Land a remote backend internship in 2026",
+  available:  true,
+};
 ```
 
 ---
 
-## Getting Started
+## `> tech.stack`
 
-### Prerequisites
+<div align="center">
 
-- Node.js 18+
-- PostgreSQL
-- Bun *(optional — npm works too)*
+**Languages & Runtime**
 
-### 1. Clone the repository
+[![Skills](https://skillicons.dev/icons?i=nodejs,typescript,javascript)](https://skillicons.dev)
 
-```bash
-git clone https://github.com/mohamedkernel/bun-brew-backend.git
-cd bun-brew-backend
+**Frameworks & Databases**
+
+[![Skills](https://skillicons.dev/icons?i=express,postgres,mongodb)](https://skillicons.dev)
+
+**Tools & Environment**
+
+[![Skills](https://skillicons.dev/icons?i=docker,git,linux,bash,vscode)](https://skillicons.dev)
+
+</div>
+
+---
+
+## `> projects`
+
+### 🟢 [Bun & Brew — Backend API](https://github.com/mohamedkernel/bun-brew-backend)
+> Production-style REST API for a coffee shop ordering system
+
+- **Stack:** Node.js · TypeScript · Express 5 · PostgreSQL · Bun
+- **Features:** JWT auth · Role-based access control · Full CRUD · Transactional order placement
+- **Status:** 🔨 In progress — deployment coming soon
+
+---
+
+### ⚫ [navi — CLI File Manager](https://github.com/mohamedkernel/navi)
+> A terminal-based file manager built as a first real-world TypeScript project
+
+- **Stack:** Node.js · TypeScript · Commander.js · Inquirer · Chalk
+- **Features:** Interactive file navigation · ESM modules · Cross-platform CLI
+
+---
+
+## `> goals`
+
 ```
-
-### 2. Install dependencies
-
-```bash
-bun install
-# or
-npm install
-```
-
-### 3. Configure environment
-
-```bash
-cp .env.example .env
-```
-
-Fill in your `.env`:
-
-```env
-NODE_ENV=development
-PORT=3000
-CORS_ORIGIN=http://localhost:3000
-
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=your_password
-DB_NAME=coffeeshop_db
-
-JWT_SECRET=your_secret_key
-JWT_EXPIRES_IN=7d
-```
-
-### 4. Run database migrations
-
-Execute the SQL files in order:
-
-```bash
-psql -U postgres -d coffeeshop_db -f server/database/migrations/001_create_users.sql
-psql -U postgres -d coffeeshop_db -f server/database/migrations/002_create_categories.sql
-psql -U postgres -d coffeeshop_db -f server/database/migrations/003_create_menu_items.sql
-psql -U postgres -d coffeeshop_db -f server/database/migrations/004_create_orders.sql
-```
-
-This creates the following tables: `users`, `categories`, `menu_items`, `orders`, `order_items`.
-
-### 5. Start the server
-
-```bash
-# Development
-bun run dev
-
-# Production build
-bun run build
-bun run start
+[x] Build a production-style backend project
+[x] Implement JWT auth + RBAC from scratch
+[x] Write clean API documentation
+[ ] Deploy Bun & Brew to production
+[ ] Land a remote backend internship
+[ ] Never stop shipping
 ```
 
 ---
 
-## API Reference
+## `> stats`
 
-### Base URL
+<div align="center">
 
-```
-/api/v1
-```
+![Mohamed's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mohamedkernel&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FFB3&icon_color=00FFB3&text_color=ffffff)
 
-### Response Format
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedkernel&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FFB3&text_color=ffffff)
 
-**Success**
-```json
-{
-  "status": "success",
-  "data": {}
-}
-```
-
-**Error**
-```json
-{
-  "status": "error",
-  "message": "Something went wrong"
-}
-```
-
-### Authentication
-
-Protected routes require a Bearer token in the `Authorization` header:
-
-```http
-Authorization: Bearer <your_token>
-```
-
-### Roles
-
-| Role | Permissions |
-|---|---|
-| `customer` | Register, login, view menu, place orders, view own orders |
-| `admin` | All customer permissions + manage users, categories, menu items, and all orders |
+</div>
 
 ---
 
-## Endpoints
+## `> contact`
 
-### Auth
+<div align="center">
 
-| Method | Route | Access | Description |
-|---|---|---|---|
-| POST | `/auth/register` | Public | Register a new account |
-| POST | `/auth/login` | Public | Login and receive a token |
-| GET | `/auth/me` | Protected | Get current authenticated user |
+[![Email](https://img.shields.io/badge/Email-mohameddev34@gmail.com-00FFB3?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohameddev34@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![GitHub](https://img.shields.io/badge/GitHub-mohamedkernel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohamedkernel)
 
-### Categories
+*Open to remote backend internships and junior roles.*
 
-| Method | Route | Access | Description |
-|---|---|---|---|
-| GET | `/categories` | Public | Get all categories |
-| POST | `/categories` | Admin | Create a category |
-| PUT | `/categories/:id` | Admin | Update a category |
-| DELETE | `/categories/:id` | Admin | Delete a category |
-
-### Menu
-
-| Method | Route | Access | Description |
-|---|---|---|---|
-| GET | `/menu` | Public | Get all menu items |
-| GET | `/menu/:id` | Public | Get a single menu item |
-| POST | `/menu` | Admin | Create a menu item |
-| PUT | `/menu/:id` | Admin | Update a menu item |
-| DELETE | `/menu/:id` | Admin | Delete a menu item |
-
-### Orders
-
-| Method | Route | Access | Description |
-|---|---|---|---|
-| POST | `/orders` | Customer | Place a new order |
-| GET | `/orders/my-orders` | Customer | Get own order history |
-| GET | `/orders` | Admin | Get all orders |
-| PUT | `/orders/:id/status` | Admin | Update order status |
-
-**Order status values:** `pending` → `confirmed` → `preparing` → `ready` → `delivered` / `cancelled`
-
-### Users
-
-| Method | Route | Access | Description |
-|---|---|---|---|
-| GET | `/users` | Admin | Get all users |
-| GET | `/users/:id` | Admin | Get user by ID |
+</div>
 
 ---
 
-## Request & Response Examples
-
-### Register
-
-```bash
-curl -X POST https://your-deployed-url.com/api/v1/auth/register \
-  -H "Content-Type: application/json" \
-  -d '{
-    "name": "Mohamed",
-    "email": "mohamed@example.com",
-    "password": "password123"
-  }'
-```
-
-```json
-{
-  "status": "success",
-  "data": {
-    "user": {
-      "id": "uuid",
-      "name": "Mohamed",
-      "email": "mohamed@example.com",
-      "role": "customer"
-    },
-    "token": "jwt_token"
-  }
-}
-```
-
-### Place an Order
-
-```bash
-curl -X POST https://your-deployed-url.com/api/v1/orders \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer YOUR_TOKEN" \
-  -d '{
-    "items": [
-      { "menu_item_id": 1, "quantity": 2 },
-      { "menu_item_id": 4, "quantity": 1 }
-    ]
-  }'
-```
-
----
-
-## Validation Rules
-
-| Field | Rule |
-|---|---|
-| `name` | 2–100 characters |
-| `email` | Valid email format |
-| `password` | 8–64 characters |
-| Category `name` | 3–20 characters |
-| Category `description` | 20–100 characters |
-| Menu item `price` | Number, minimum 0 |
-| Menu item `type` | `coffee`, `bun`, or `other` |
-| Order `items` | At least 1 item, each quantity ≥ 1 |
-
----
-
-## HTTP Status Codes
-
-| Code | Meaning |
-|---|---|
-| `200` | Success |
-| `201` | Created |
-| `400` | Bad request / validation error |
-| `401` | Missing or invalid token |
-| `403` | Insufficient role permissions |
-| `404` | Resource not found |
-| `409` | Conflict (duplicate email, category, or menu item) |
-
----
-
-## License
-
-MIT
+<div align="center">
+<sub>Built from scratch. No framework. No shortcuts. Just code. ⚡</sub>
+</div>
